@@ -3,9 +3,9 @@ package main
 import (
 	"net/http"
 
+	"github.com/RMMFindHolding/lab_swagger_api_go/api"
+	_ "github.com/RMMFindHolding/lab_swagger_api_go/docs"
 	"github.com/gorilla/mux"
-	"github.com/lab_swagger_api_go/api"
-	_ "github.com/lab_swagger_api_go/docs"
 	httpSwagger "github.com/swaggo/http-swagger"
 )
 
